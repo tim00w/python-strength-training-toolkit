@@ -54,9 +54,9 @@ Overview
     :alt: PyPI Package latest release
     :target: https://pypi.python.org/pypi/strengthtrainingtoolkit
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/tim00w/python-timo's-strength-training-toolkit/v0.1.0.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/tim00w/python-timo's-strength-training-toolkit/v0.1.1.svg
     :alt: Commits since latest release
-    :target: https://github.com/tim00w/python-timo's-strength-training-toolkit/compare/v0.1.0...master
+    :target: https://github.com/tim00w/python-timo's-strength-training-toolkit/compare/v0.1.1...master
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/strengthtrainingtoolkit.svg
     :alt: PyPI Wheel

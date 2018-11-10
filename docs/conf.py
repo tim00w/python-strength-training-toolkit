@@ -26,7 +26,7 @@ project = "Timo's Strength Training Toolkit"
 year = '2018'
 author = 'Timo Lesterhuis'
 copyright = '{0}, {1}'.format(year, author)
-version = release = '0.1.0'
+version = release = '0.1.1'
 
 pygments_style = 'trac'
 templates_path = ['.']
