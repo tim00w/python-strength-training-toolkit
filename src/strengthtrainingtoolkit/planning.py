@@ -1,12 +1,16 @@
 import streprogen
-import re
 import itertools
 from .database import Program, TrainingsSchema, ExerciseDescription,\
     Iteration, PlannedWorkout, PlannedExercise, PlannedLoad, SchemaExerciseOrder
 from sqlalchemy.orm.exc import NoResultFound
+from sqlalchemy.orm import sessionmaker
+import logging
+
+logger = logging.getLogger(__name__)
+logger.addHandler(logging.NullHandler())
 
 
-def program_to_sql(program, session=None):
+def program_to_sql(program, engine=None):
     """
 
     :param program:
@@ -35,7 +39,9 @@ def program_to_sql(program, session=None):
             # import pdb; pdb.set_trace()  # FINDOUT: if session can't find anything, does it return None?
             # FINDOUT --> that is what I assumed here
             exercise_description_ = None
-            if session:
+            if engine:
+                Session = sessionmaker(bind=engine)
+                session = Session()
                 try:
                     exercise_description_ = session.query(ExerciseDescription).filter_by(name=exercise.name).one()
                 except NoResultFound:
