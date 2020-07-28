@@ -42,14 +42,6 @@ Overview
     :target: https://landscape.io/github/tim00w/python-timo's-strength-training-toolkit/master
     :alt: Code Quality Status
 
-.. |codacy| image:: https://img.shields.io/codacy/REPLACE_WITH_PROJECT_ID.svg
-    :target: https://www.codacy.com/app/tim00w/python-timo's-strength-training-toolkit
-    :alt: Codacy Code Quality Status
-
-.. |codeclimate| image:: https://codeclimate.com/github/tim00w/python-timo's-strength-training-toolkit/badges/gpa.svg
-   :target: https://codeclimate.com/github/tim00w/python-timo's-strength-training-toolkit
-   :alt: CodeClimate Quality Status
-
 .. |version| image:: https://img.shields.io/pypi/v/strengthtrainingtoolkit.svg
     :alt: PyPI Package latest release
     :target: https://pypi.python.org/pypi/strengthtrainingtoolkit
